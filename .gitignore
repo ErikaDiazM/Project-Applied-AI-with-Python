@@ -206,10 +206,16 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Data files (project-specific)
+# Raw data
 data/
-*.csv
-*.xlsx
-*.parquet
-figures/*.png
-figures/*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
