@@ -8,27 +8,27 @@
 
 ## 📋Forschungsfrage
 
-Wie hat sich Kolumbiens Teilnahme an den Olympischen Sommerspielen entwickelt?
-Diese Analyse untersucht die olympische Entwicklung Kolumbiens von 1896 bis 2016 mit Fokus auf:
-- 📈Teamwachstum: Entwicklung der Delegationsgröße über 120 Jahre
-- 👥Geschlechterparität: Integration und Anteil weiblicher Athlet:innen
-- 🥇Medaillenprofile: Erfolge nach Sportarten und zeitliche Trends
+Wie hat sich Kolumbiens Teilnahme an den Olympischen Sommerspielen entwickelt?  
+Diese Analyse untersucht die olympische Entwicklung Kolumbiens von 1896 bis 2016 mit Fokus auf: 
+- 📈Teamwachstum: Entwicklung der Delegationsgröße über 120 Jahre  
+- 👥Geschlechterparität: Integration und Anteil weiblicher Athlet:innen  
+- 🥇Medaillenprofile: Erfolge nach Sportarten und zeitliche Trends  
 
-## 📊Datensatz
+## 📊Datensatz  
 
-Die Analyse basiert auf dem 120 Years of Olympic History Dataset:
+Die Analyse basiert auf dem 120 Years of Olympic History Dataset:  
 
 Datei                   Beschreibung                                    Quelle
 __________________________________________________________________________________________
-athlete_events.csv      Individuelle Athlet:innen und ihre Events       Kaggle
+athlete_events.csv      Individuelle Athlet:innen und ihre Events       Kaggle  
                         (271.116 Zeilen)
-noc_regions.csv         NOC-Codes und Länderzuordnung (230 Regionen)    Kursmaterialien
+noc_regions.csv         NOC-Codes und Länderzuordnung (230 Regionen)    Kursmaterialien  
 
-Filterkriterien für diese Analyse:
-- NOC == 'COL' (nur Kolumbien)
-- Season == 'Summer' (nur Sommerspiele)
+Filterkriterien für diese Analyse:  
+- NOC == 'COL' (nur Kolumbien)  
+- Season == 'Summer' (nur Sommerspiele)  
 
-## 📁Repository-Struktur
+## 📁Repository-Struktur  
 
 Project-Applied-AI-with-Python/
 │
