@@ -59,7 +59,7 @@ Project-Applied-AI-with-Python/
 
 Datenfilterung
 
-df_colombia = df[(df['NOC']=='COL')&(df['Season']=='Summer')]
+df_colombia = `df[(df['NOC']=='COL')&(df['Season']=='Summer')]`
 
 Metriken
 
