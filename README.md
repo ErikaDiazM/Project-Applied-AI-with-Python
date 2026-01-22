@@ -30,38 +30,32 @@ Filterkriterien für diese Analyse:
 
 ## 📁Repository-Struktur  
 
+## 📁 Repository-Struktur
+
+```text
 Project-Applied-AI-with-Python/
-│
-├── notebooks/   
+├── notebooks/
 │   └── FinalProject.ipynb
-│
-├── figures/               
+├── figures/
 │   ├── 01_team_size.pdf
 │   ├── 01_team_size.png
 │   ├── 02_gender_composition_area.pdf
-│   |── 02_gender_composition_area.png
-|   ├── 03_medals_heatmap.pdf
-|   ├── 03_medals_heatmap.png
+│   ├── 02_gender_composition_area.png
+│   ├── 03_medals_heatmap.pdf
+│   ├── 03_medals_heatmap.png
 │   ├── 04_medals_typeofmedal.pdf
 │   ├── 04_medals_typeofmedal.png
-│   |── 05_host_cities_withmedals_colored.pdf
-|   └── 05_host_cities_withmedals_colored.png
-│
-├── poster/                 
-│   |── Poster_Project.pdf
-|   └── Poster_Project.pptx
-│
-├── data/                   # ⚠️ NICHT im Repository (siehe .gitignore)
+│   ├── 05_host_cities_withmedals_colored.pdf
+│   └── 05_host_cities_withmedals_colored.png
+├── poster/
+│   ├── Poster_Project.pdf
+│   └── Poster_Project.pptx
+├── data/  # ⚠️ NICHT im Repository (siehe .gitignore)
 │   ├── athlete_events.csv
 │   └── noc_regions.csv
-│
-├── requirements.txt        
-├── .gitignore          
-└── README.md  
-- notebooks/      → Analyse-Notebooks
-- src/            → Hilfsfunktionen (Daten laden, bereinigen)
-- figures/        → exportierte Plots für das Poster
-- poster/         → finales Poster als PDF (optional zusätzlich die editierbare Datei)
+├── requirements.txt
+├── .gitignore
+└── README.md
 
 ## 🔬Methodik
 
