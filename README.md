@@ -3,8 +3,8 @@
 **Kurs**: Applied AI with Python  
 **Kursleitung**: Prof. DI Martin Uray  
 **Studentin**: Erika Diaz  
-**Institution**: Paris Lodron Universität Salzburg  
 **Semester**: WS 2025/26  
+**Institution**: Paris Lodron Universität Salzburg    
 
 ## 📋Forschungsfrage
 
