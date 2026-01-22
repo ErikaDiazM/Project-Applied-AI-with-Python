@@ -26,9 +26,7 @@ Die Analyse basiert auf dem 120 Years of Olympic History Dataset:
 
 Filterkriterien für diese Analyse:  
 - NOC == 'COL' (nur Kolumbien)  
-- Season == 'Summer' (nur Sommerspiele)  
-
-## 📁Repository-Struktur  
+- Season == 'Summer' (nur Sommerspiele)    
 
 ## 📁 Repository-Struktur
 
@@ -56,7 +54,7 @@ Project-Applied-AI-with-Python/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ## 🔬Methodik
 
 Datenfilterung
@@ -65,12 +63,11 @@ df_colombia = df[(df['NOC']=='COL')&(df['Season']=='Summer')]
 
 Metriken
 
-Metrik                Berechnung                       Code-Beispiel
-__________________________________________________________________________________________
-Teamgröße             Anzahl eindeutiger               df.groupby('Year')['ID'].nunique()
-                      Athlet:innen pro Jahr
-Frauenanteil          Verhältnis F/(F+M) pro Jahr      female / (female + male)
-Medaillen             Deduplizierte Medal-Events       df.drop_duplicates(subset=                                                                       ['Year','Sport','Event','Medal'])
+| Metrik | Berechnung | Code-Beispiel |
+|---|---|---|
+| Teamgröße | Anzahl eindeutiger Athlet:innen pro Jahr | `df.groupby('Year')['ID'].nunique()` |
+| Frauenanteil | Verhältnis F/(F+M) pro Jahr | `female / (female + male)` |
+| Medaillen | Deduplizierte Medal-Events | `df.drop_duplicates(subset=['Year','Sport','Event','Medal'])` |
 
 Deduplikation von Medaillen
 
@@ -90,21 +87,24 @@ Der Datensatz enthält einen Eintrag mit NOC=COL für das Team "Racing Club de F
 
 1. Teamwachstum (71-facher Anstieg)
 
-Jahr            Athlet:innen            Bemerkung
-__________________________________________________________________________________________
-1932            2                       Erste reguläre Teilnahme
-1968            10                      Erste weibliche Athlet:innen
-2012            101                     Größer relativer Sprung
-2016            143                     Historisches Maximum
+| Jahr | Athlet:innen | Bemerkung |
+|---|---:|---|
+| 1932 | 2 | Erste reguläre Teilnahme |
+| 1968 | 10 | Erste weibliche Athlet:innen |
+| 2012 | 101 | Größer relativer Sprung |
+| 2016 | 143 | Historisches Maximum |
 
 Interpretation: Exponentielle Beschleunigung ab den 1990er-Jahren deutet auf institutionelle Sportreformen und gezielte Investitionen hin.
 
 2. Geschlechterparität
    
-1932-1964:       0% Frauen (ausschließlich männliche Teilnahme)
-1968:            33% Frauen (5 von 15 Athlet:innen)
-2012:            55% Frauen (56 von 101) <- Historicher Höhepunkt
-2016:            49% Frauen (70 von 143)
+| Zeitraum/Jahr | Frauenanteil | Details |
+|---|---:|---|
+| 1932–1964 | 0% | Ausschließlich männliche Teilnahme |
+| 1968 | 33% | 5 von 15 Athlet:innen |
+| 2012 | 55% | 56 von 101 (Historischer Höhepunkt) |
+| 2016 | 49% | 70 von 143 |
+
 Meilenstein: 2012 markiert erstmals weibliche Mehrheit in der Delegation
 
 3. Medaillenprofile
