@@ -1,4 +1,26 @@
-pandas
-numpy
-matplotlib
-jupyter
+# ============================================================================
+# PROYECTO: Kolumbien bei Olympia (1896-2016)
+# Curso: Applied AI with Python
+# Student: Erika Liseth Diaz Martinez
+# Fecha: Enero 2025
+# ============================================================================
+
+# Core Data Science
+pandas==2.1.4
+numpy==1.26.2
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Geographic Data
+geopandas==0.14.1
+contextily==1.4.0
+
+# Jupyter Environment
+jupyter==1.0.0
+notebook==7.0.6
+ipykernel==6.27.1
+
+# Optional: Interactive plots (if used)
+# plotly==5.18.0
