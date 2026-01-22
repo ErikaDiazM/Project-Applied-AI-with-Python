@@ -1,10 +1,10 @@
 # 🏅 Kolumbien bei Olympia (1896–2016)
 
-**Kurs**: Applied AI with Python 
-**Kursleitung**: Prof. DI Martin Uray
-**Studentin**: Erika Diaz
-**Institution**: Paris Lodron Universität Salzburg
-**Semester**: WS 2025/26
+**Kurs**: Applied AI with Python  
+**Kursleitung**: Prof. DI Martin Uray  
+**Studentin**: Erika Diaz  
+**Institution**: Paris Lodron Universität Salzburg  
+**Semester**: WS 2025/26  
 
 ## 📋Forschungsfrage
 
