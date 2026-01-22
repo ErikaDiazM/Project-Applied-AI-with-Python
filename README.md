@@ -77,11 +77,11 @@ Ergebnis: 27 eindeutige Medaillen-Events
 
 Historicher Ausreißer  
 
-1900 Paris – Tug-Of-War (Silber):  
+**1900 Paris – Tug-Of-War (Silber):** 
 Der Datensatz enthält einen Eintrag mit NOC=COL für das Team "Racing Club de France". Dies ist eine historische Anomalie (französisches Team mit kolumbianischem Sportler).  
-✅ Dokumentiert  
-❌ Nicht in Trendinterpretarionen einbezogen  
-📊 Hauptanalyse-Zeitraum: 1932-2016  
+  ✅ Dokumentiert  
+  ❌ Nicht in Trendinterpretarionen einbezogen  
+  📊 Hauptanalyse-Zeitraum: 1932-2016  
 
 ## 📈Hauptergebnisse  
 
