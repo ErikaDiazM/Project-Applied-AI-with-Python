@@ -18,11 +18,11 @@ Diese Analyse untersucht die olympische Entwicklung Kolumbiens von 1896 bis 2016
 
 Die Analyse basiert auf dem 120 Years of Olympic History Dataset:  
 
-Datei                   Beschreibung                                    Quelle
-__________________________________________________________________________________________
-athlete_events.csv      Individuelle Athlet:innen und ihre Events       Kaggle  
-                        (271.116 Zeilen)
-noc_regions.csv         NOC-Codes und Länderzuordnung (230 Regionen)    Kursmaterialien  
+| Datei | Beschreibung | Quelle |
+|---|---|---|
+| `athlete_events.csv` | Individuelle Athlet:innen und ihre Events<br>(271.116 Zeilen) | Kaggle |
+| `noc_regions.csv` | NOC-Codes und Länderzuordnung (230 Regionen) | Kursmaterialien |
+ 
 
 Filterkriterien für diese Analyse:  
 - NOC == 'COL' (nur Kolumbien)  
